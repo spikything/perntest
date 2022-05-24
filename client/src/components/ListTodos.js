@@ -51,6 +51,7 @@ const ListTodos = () => {
                     <td>
                         <button 
                             className='btn btn-danger'
+                            data={todo.description}
                             onClick={() => deleteTodo(todo.todo_id)}
                         >Delete</button>
                     </td>
