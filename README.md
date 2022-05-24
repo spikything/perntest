@@ -31,3 +31,12 @@ or
 ```
 npm run build
 ```
+
+## Testing
+A couple of E2E tests have been included which use Cypress. To open the test runner, do: 
+
+```
+npx cypress open
+```
+
+Then click the button in the top-right corner to run the tests.
