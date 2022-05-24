@@ -11,7 +11,8 @@ Clone the repo then install the dependencies in both client and server folders w
 npm install
 ```
 
-You will also need a PostgreSQL running somewhere. Update server/db.js to point to it.
+## Database
+You will also need a PostgreSQL server running somewhere. Edit server/db.js to point to it. For help setting up the database, see database.sql
 
 ## Server
 Run the server with: 
